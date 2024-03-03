@@ -93,12 +93,77 @@
 
 # FUNKCJE WARUNKOWE I PĘTLE
 
-a = 6
-b = 7
+# a = 6
+# b = 7
+#
+# if a > b:
+#     print("a jest wiekszy od b")
+# elif a < b:  # Else If
+#     print("a jest mniejszy od b")
+# else:
+#     print("a jest rowny b")
 
-if a > b:
-    print("a jest wiekszy od b")
-elif a < b:  # Else If
-    print("a jest mniejszy od b")
+# Można łączyc funkcje warunkowe za pomocą & lub |
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+#
+# if (a > b) & (c > d):
+#     print(a, c)
+# else:
+#     print(b, d)
+#
+# if (a > b) | (c > d):
+#     print(a, c)
+# else:
+#     print(b, d)
+
+# PĘTLA
+
+# for i in range(8):
+#    print(i)
+# else:
+#    print('koniec petli')
+
+# for i in range(2, 8):
+#    print(i)
+# else:
+#    print('koniec petli')
+
+# for i in range(2, 8, 2):
+#    print(i)
+# else:
+#    print('koniec petli')
+
+# lista = [2, 4, 5, 3, 12, 'a', 'b']
+
+# for i in lista:
+#    print(i)
+# else:
+#    print('koniec petli')
+
+#for i in range(0,5):
+#    for j in range(0,5):
+#        result = i+j
+#        print(result)
+#    print('')
+lista = [2, 23, 5, 44, 3213, 2]
+
+# licznik = 0
+# while licznik < len(lista):
+#     print(lista[licznik])
+#     licznik += 1
+# else:
+#     print('koniec petli')
+licznik = 0
+
+while licznik != 10:
+    if licznik == 7:
+        print(licznik)
+        break
+    else:
+        licznik += 1
 else:
-    print("a jest rowny b")
+    print('licznik')
